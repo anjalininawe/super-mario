@@ -159,7 +159,7 @@ copy the load balancer ingress and paste it on browser and your game is running
 
 $\color{green} \textbf {Final Output: Enjoy The Game 🎮}$
 
-![output] <img width="1919" height="902" alt="image" src="https://github.com/user-attachments/assets/abfdb050-67c5-4d48-a293-86be48463168" />
+<img width="1919" height="902" alt="image" src="https://github.com/user-attachments/assets/abfdb050-67c5-4d48-a293-86be48463168" />
 
 
 **Delete Infra**
