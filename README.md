@@ -121,7 +121,8 @@ cd EKS-TF
 ````
 vim backend.tf
 ````
-![backend tf](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/6b9e648f-2f13-41e8-a66b-6b6e6e0a63de)
+<img width="1104" height="228" alt="image" src="https://github.com/user-attachments/assets/e20f9cfa-ce07-4fdc-b3d7-7841ac6f6bac" />
+
 
 $\color{blue} \textbf {Create \ Infra:}$
 ````
@@ -131,7 +132,7 @@ terraform apply --auto-approve
 ````
 
 ````
-aws eks update-kubeconfig --name EKS_CLOUD --region ap-southeast-1 --profile eks
+aws eks update-kubeconfig --name EKS_CLOUD --region eu-north-1 --profile eks
 ````
 
 ### $\color{red} \textbf {Step 6 → Creation  of  deployment  and service  for  EKS}$
@@ -150,14 +151,16 @@ kubectl get all
 kubectl get svc mario-service
 ````
 copy the load balancer ingress and paste it on browser and your game is running
+<img width="1755" height="84" alt="image" src="https://github.com/user-attachments/assets/99f508eb-26f1-43c2-836e-c0a465a0e29a" />
 
-![load balancer](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/d085951d-3398-44ad-b9cd-05c561b74664)
+
 
 
 
 $\color{green} \textbf {Final Output: Enjoy The Game 🎮}$
 
-![output](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/edfff0b5-6507-48e4-b552-908671b59920)
+![output] <img width="1919" height="902" alt="image" src="https://github.com/user-attachments/assets/abfdb050-67c5-4d48-a293-86be48463168" />
+
 
 **Delete Infra**
 ````
