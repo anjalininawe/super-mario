@@ -92,18 +92,22 @@ kubectl version --client
 ````
 ### $\color{red} \textbf {Step 3 → IAM  Role  for  EC2}$
 create role:
-![role](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/31a05c18-f34b-430d-b5cb-c5873ae6e9c5)
+<img width="1878" height="784" alt="image" src="https://github.com/user-attachments/assets/869bf36e-c3ca-466b-b8b0-640b941759bd" />
+
 
 ### $\color{red} \textbf {Step 4 →Attach  IAM  role  with your  EC2 }$
 go to EC2 
 click on actions → security → modify IAM role option
 - administrator access
 - eks
-![image](https://github.com/user-attachments/assets/c23f9d00-505d-4a0d-b07d-c6b21d419748)
+- <img width="1503" height="754" alt="image" src="https://github.com/user-attachments/assets/fa8da0cb-d9e9-4036-b928-1f7e19ad483f" />
 
-![role-ec2](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/70cc0ebb-6063-4c4b-98df-7259a08749b8)
 
-![modify-role](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/3e998e21-3654-43b0-8df0-496f009ef0a6)
+<img width="1861" height="459" alt="image" src="https://github.com/user-attachments/assets/6a16f2b4-1b4c-4ee5-b2b5-75465b42cd68" />
+
+
+<img width="1875" height="586" alt="image" src="https://github.com/user-attachments/assets/c37d9f8b-be60-4254-9468-9856d384f26a" />
+
 
 ### $\color{red} \textbf {Step 5 → Building Infrastructure  Using  terraform}$
 $\color{blue} \textbf {Install  GIT}$
